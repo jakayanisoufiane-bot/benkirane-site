@@ -16,8 +16,8 @@
   --white: #ffffff;
   --mist: #ece2cf;
   --muted: #6f6657;
-  --wa: #25d366;
-  --wa-dark: #1da851;
+  --wa: #e6b035;
+  --wa-dark: #c0901c;
 
   --maxw: 1160px;
   --radius: 18px;
@@ -63,8 +63,8 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
   white-space: nowrap;
 }
 .btn-lg { padding: 16px 28px; font-size: 1.02rem; }
-.btn-wa { background: var(--wa); color: #06381c; box-shadow: 0 10px 26px -10px rgba(37, 211, 102, .6); }
-.btn-wa:hover { background: var(--wa-dark); color: #fff; transform: translateY(-2px); }
+.btn-wa { background: var(--wa); color: var(--ink); box-shadow: 0 10px 26px -10px rgba(70, 52, 20, .5); }
+.btn-wa:hover { background: var(--wa-dark); color: var(--ink); transform: translateY(-2px); }
 .btn-ghost { background: var(--sand); color: var(--ink); border-color: var(--sand); }
 .btn-ghost:hover { background: var(--sand-deep); border-color: var(--sand-deep); color: var(--ink); transform: translateY(-2px); }
 
@@ -248,7 +248,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
 /* ---------- WhatsApp FAB (mobile) ---------- */
 .wa-fab {
   position: fixed; right: 18px; bottom: 18px; z-index: 60; display: none;
-  width: 58px; height: 58px; border-radius: 50%; background: var(--wa); color: #06381c;
+  width: 58px; height: 58px; border-radius: 50%; background: var(--wa); color: var(--ink);
   align-items: center; justify-content: center; box-shadow: 0 12px 30px -8px rgba(37,211,102,.7);
   text-decoration: none; transition: transform .18s;
 }
