@@ -11,9 +11,9 @@
   --sand-deep: #c0901c;     /* or foncé (hover, grands chiffres) */
   --gold-ink: #8c6410;      /* or lisible pour texte sur blanc */
   --sand-soft: #fbefd0;     /* or clair */
-  --paper: #ffffff;         /* fond principal blanc */
+  --paper: #1f1b16;         /* fond principal blanc */
   --paper-alt: #fbf7ee;     /* fond sections alternées (crème) */
-  --white: #ffffff;
+  --white: #1f1b16;
   --mist: #ece2cf;
   --muted: #6f6657;
   --wa: #e6b035;
