@@ -116,7 +116,7 @@ h1,h2,h3{font-family:'Fraunces',Georgia,serif;color:var(--cream);font-weight:500
 .hero-lead{color:var(--text);font-size:clamp(1.05rem,1.5vw,1.28rem);max-width:56ch;margin:26px 0 34px}
 .hero-actions{display:flex;gap:16px;flex-wrap:wrap}
 
-.hero-trust{position:relative;z-index:3;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;
+.hero-trust{position:relative;z-index:3;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;
   padding:26px 24px;margin-bottom:26px;border-top:1px solid var(--line-soft)}
 .trust-item{display:flex;flex-direction:column;gap:3px}
 .trust-item strong{font-family:'Fraunces',serif;font-size:1.5rem;color:var(--gold);font-weight:600;line-height:1}
