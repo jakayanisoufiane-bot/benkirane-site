@@ -39,13 +39,19 @@
   </div>
 </header>
 
-<!-- ============ HERO ============ -->
-<section class="hero">
-  <div class="wrap hero-grid">
+<!-- ============ HERO (vidéo) ============ -->
+<section class="hero" id="hero">
+  <video class="hero-video" autoplay muted loop playsinline poster="cabinet-1.jpg" aria-hidden="true">
+    <source src="hero.mp4" type="video/mp4" />
+  </video>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="hero-frame" aria-hidden="true"></div>
+
+  <div class="wrap hero-inner">
     <div class="hero-copy reveal">
-      <p class="eyebrow">Cabinet Dr Hassan Benkirane · Agadir</p>
-      <h1 class="hero-title">La clé pour un<br>sourire sain.</h1>
-      <p class="hero-lead">Bienvenue au cabinet <em>Natural Smile Dental</em>. Des soins dentaires modernes alliés à une approche naturelle — phytothérapie, produits naturels et techniques douces — pour un sourire sain, beau et durable.</p>
+      <p class="eyebrow eyebrow--ondark">Natural Smile Dental · Agadir</p>
+      <h1 class="hero-title">La clé d'un sourire<br><em>sain &amp; naturel.</em></h1>
+      <p class="hero-lead">Dentisterie moderne alliée à une approche naturelle — phytothérapie, produits doux et techniques précises — au service d'un sourire beau et durable.</p>
       <div class="hero-actions">
         <a class="btn btn-wa btn-lg" href="https://wa.me/212689473866?text=Bonjour%2C%20je%20souhaite%20prendre%20rendez-vous%20au%20Cabinet%20Benkirane." target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3C4.3 14.9 3.8 13.5 3.8 12 3.8 7.5 7.5 3.8 12 3.8s8.2 3.7 8.2 8.2-3.7 8.2-8.2 8.2Z"/><path d="M17.5 14.4c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5L9 6.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.2.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.5-.4Z"/></svg>
@@ -54,29 +60,25 @@
         <a class="btn btn-ghost btn-lg" href="#resultats">Voir les résultats</a>
       </div>
     </div>
-
-    <div class="hero-visual reveal">
-      <div class="media ph ph-hero">
-        <img src="cabinet-1.jpg" alt="Réception du cabinet dentaire Dr Hassan Benkirane à Agadir" loading="eager" />
-      </div>
-      <div class="hero-badge">
-        <span class="hero-badge-num">+30</span>
-        <span class="hero-badge-txt">ans d'expérience<br>au service de votre sourire</span>
-      </div>
-    </div>
   </div>
 
-  <div class="wrap trust-strip reveal">
+  <div class="wrap hero-trust reveal">
     <div class="trust-item"><strong>+30 ans</strong><span>d'expérience</span></div>
-    <div class="trust-item"><strong>Approche naturelle</strong><span>produits doux &amp; sans douleur</span></div>
-    <div class="trust-item"><strong>RDV rapide</strong><span>par WhatsApp</span></div>
+    <div class="trust-item"><strong>+500 000</strong><span>patients accompagnés</span></div>
+    <div class="trust-item"><strong>Naturel</strong><span>produits doux &amp; sans douleur</span></div>
+    <div class="trust-item"><strong>RDV WhatsApp</strong><span>réponse rapide</span></div>
   </div>
+
+  <a href="#soins" class="hero-scroll" aria-label="Faire défiler vers le contenu">
+    <span></span>
+  </a>
 </section>
 
 <!-- ============ SOINS / SPÉCIALITÉS ============ -->
 <section class="section" id="soins">
   <div class="wrap">
     <header class="section-head reveal">
+      <p class="eyebrow">Nos spécialités</p>
       <h2 class="section-title">Une prise en charge complète</h2>
       <p class="section-sub">Du soin courant à l'esthétique avancée, avec une approche naturelle qui privilégie votre confort et des produits doux.</p>
     </header>
@@ -144,6 +146,7 @@
       </div>
     </div>
     <div class="doc-copy reveal">
+      <p class="eyebrow">Votre praticien</p>
       <h2 class="section-title">Dr Hassan Benkirane</h2>
       <p class="doc-role">Chirurgien-dentiste · Phytothérapeute (Aromathérapie) · Natural Smile Dental</p>
       <p>Avec plus de 30 ans d'expérience, le Dr Benkirane accueille ses patients à Agadir dans un cabinet moderne et bien équipé. Sa particularité : associer la dentisterie classique à une approche naturelle, avec des produits doux, renforçants et tonifiants.</p>
@@ -165,6 +168,7 @@
 <section class="section" id="resultats">
   <div class="wrap">
     <header class="section-head reveal">
+      <p class="eyebrow">Avant / Après</p>
       <h2 class="section-title">Des transformations réelles</h2>
       <p class="section-sub">Réhabilitation complète réalisée au cabinet. Glissez le curseur pour découvrir le résultat.</p>
     </header>
@@ -194,9 +198,9 @@
       <h2 class="section-title">Les résultats parlent d'eux-mêmes</h2>
     </header>
     <div class="smile-grid reveal">
+      <div class="media smile"><img src="sourire-3.jpg" alt="Sourire d'un patient" loading="lazy" /></div>
       <div class="media smile"><img src="sourire-1.jpg" alt="Sourire d'un patient" loading="lazy" /></div>
       <div class="media smile"><img src="sourire-2.jpg" alt="Sourire d'un patient" loading="lazy" /></div>
-      <div class="media smile"><img src="sourire-3.jpg" alt="Sourire d'un patient" loading="lazy" /></div>
       <div class="media smile"><img src="sourire-4.jpg" alt="Résultat dentaire" loading="lazy" /></div>
     </div>
   </div>
@@ -256,6 +260,7 @@
 <section class="section section-alt" id="galerie">
   <div class="wrap">
     <header class="section-head reveal">
+      <p class="eyebrow">En images</p>
       <h2 class="section-title">Le cabinet en images</h2>
       <p class="section-sub">Un espace moderne, lumineux et bien équipé, pensé pour votre confort et votre sécurité.</p>
     </header>
@@ -317,6 +322,7 @@
   </div>
   <div class="wrap footer-bottom">
     <span>© <span id="year"></span> Cabinet Dentaire Benkirane — Natural Smile Dental. Tous droits réservés.</span>
+    <span>Site réalisé par Arkane Lab</span>
   </div>
 </footer>
 
