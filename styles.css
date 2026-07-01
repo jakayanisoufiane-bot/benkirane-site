@@ -262,6 +262,7 @@ h1,h2,h3{font-family:'Fraunces',Georgia,serif;color:var(--cream);font-weight:500
   .site-header.open .nav a{padding:14px 0;border-bottom:1px solid var(--line-soft)}
   .hero-trust{grid-template-columns:repeat(2,1fr);gap:16px}
   .cards,.smile-grid,.doc-list,.contact-info{grid-template-columns:1fr}
+  .ba-grid{grid-template-columns:1fr;max-width:440px}
   .smile-grid{grid-template-columns:repeat(2,1fr)}
   .footer-inner{grid-template-columns:1fr 1fr;gap:28px}
   .wa-fab{display:flex}
