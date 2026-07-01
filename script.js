@@ -41,11 +41,12 @@
   }
 
   /* ---- Slider Avant / Après ---- */
-  var ba = document.getElementById("ba");
-  if (ba) {
+  var baList = document.querySelectorAll(".ba");
+  baList.forEach(function (ba) {
     var stage = ba.querySelector(".ba-stage");
-    var before = document.getElementById("baBefore");
-    var handle = document.getElementById("baHandle");
+    var before = ba.querySelector(".ba-before");
+    var handle = ba.querySelector(".ba-handle");
+    if (!stage || !before || !handle) return;
     var dragging = false;
 
     function setPos(pct) {
@@ -54,12 +55,10 @@
       handle.style.left = pct + "%";
       handle.setAttribute("aria-valuenow", Math.round(pct));
     }
-
     function posFromEvent(clientX) {
       var rect = stage.getBoundingClientRect();
       return ((clientX - rect.left) / rect.width) * 100;
     }
-
     function onMove(clientX) { if (dragging) setPos(posFromEvent(clientX)); }
 
     handle.addEventListener("pointerdown", function (e) {
@@ -71,13 +70,11 @@
     handle.addEventListener("pointerup", function () { dragging = false; });
     handle.addEventListener("pointercancel", function () { dragging = false; });
 
-    // permettre aussi de cliquer n'importe où sur la scène
     stage.addEventListener("pointerdown", function (e) {
       if (e.target === handle || handle.contains(e.target)) return;
       setPos(posFromEvent(e.clientX));
     });
 
-    // clavier
     handle.addEventListener("keydown", function (e) {
       var cur = parseFloat(handle.getAttribute("aria-valuenow")) || 50;
       if (e.key === "ArrowLeft") { setPos(cur - 4); e.preventDefault(); }
@@ -87,7 +84,7 @@
     });
 
     setPos(50);
-  }
+  });
   /* ---- Carrousel galerie ---- */
   var carousel = document.getElementById("carousel");
   if (carousel) {
