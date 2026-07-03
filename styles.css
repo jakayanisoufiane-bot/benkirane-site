@@ -169,7 +169,7 @@ h1,h2,h3{font-family:'Fraunces',Georgia,serif;color:var(--cream);font-weight:500
   background-size:11px;background-position:center;background-repeat:no-repeat}
 
 /* ---------- Avant / Après ---------- */
-.ba-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1100px;margin-inline:auto}
+.ba-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;max-width:1100px;margin-inline:auto}
 .ba{margin:0}
 .ba-cap{text-align:center;color:var(--muted);font-size:.86rem;margin-top:11px;font-family:'Fraunces',serif}
 .ba-stage{position:relative;aspect-ratio:4/3;border-radius:var(--radius-lg);overflow:hidden;user-select:none;
@@ -199,7 +199,7 @@ h1,h2,h3{font-family:'Fraunces',Georgia,serif;color:var(--cream);font-weight:500
 .contact-actions{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
 .contact-or{color:var(--muted);font-size:.96rem}
 .contact-tel{color:var(--gold);font-weight:600}
-.socials{display:flex;gap:12px;margin-top:6px}
+.socials{display:flex;gap:19px;margin-top:6px}
 .socials a{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;color:var(--gold);
   border:1px solid var(--line);transition:.25s}
 .socials a:hover{background:var(--gold);color:#241f1a;transform:translateY(-2px)}
