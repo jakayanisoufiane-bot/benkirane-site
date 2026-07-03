@@ -194,7 +194,7 @@ h1,h2,h3{font-family:'Fraunces',Georgia,serif;color:var(--cream);font-weight:500
 
 /* ---------- Contact ---------- */
 .section-contact{background:var(--void)}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start;margin-bottom:56px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:start;margin-bottom:45px}
 .contact-copy .section-sub{margin-bottom:28px}
 .contact-actions{display:flex;flex-direction:column;align-items:flex-start;gap:28px}
 .contact-or{color:var(--muted);font-size:.96rem;margin-top:28px}
