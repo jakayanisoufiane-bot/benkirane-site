@@ -1,0 +1,8 @@
+# Cabinet Dentaire Dr Hassan Benkirane · Natural Smile Dental
+# https://www.benkiranedentalcentre.com/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.benkiranedentalcentre.com/sitemap.xml
