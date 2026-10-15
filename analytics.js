@@ -6,7 +6,7 @@
  */
 (function () {
   // ➜ Coller ici l'ID de mesure GA4 (format G-XXXXXXXXXX). Vide = GA4 désactivé.
-  var GA4_ID = '';
+  var GA4_ID = 'G-Y0EHKN9R9G';
 
   window.dataLayer = window.dataLayer || [];
   function gtag() { window.dataLayer.push(arguments); }
